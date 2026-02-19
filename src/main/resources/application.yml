@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: devops
+
+server:
+  port: 9080
+
+aws:
+  accessKey: ${AWS_ACCESS_KEY_ID}
+  secretKey: ${AWS_SECRET_ACCESS_KEY}
+  region: ${AWS_REGION}
+  s3:
+    bucket: files-bucket-kb
+
+
